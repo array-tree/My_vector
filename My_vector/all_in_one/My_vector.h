@@ -1,6 +1,5 @@
 
-//二维向量库
-//由 pzy 编写
+
 #include <cmath>
 #include <string>
 #include <vector>
@@ -8,6 +7,7 @@
 using namespace std;
 const double eps_of_vector = 1e-8;
 #define EOV eps_of_vector
+//二维向量库
 namespace Vector2 // 平面向量
 {
 
@@ -169,7 +169,6 @@ namespace Vector2_ext
 
 }
 //三维向量库
-//由 pzy 编写
 namespace Vector3 //三维向量
 {
 
@@ -260,8 +259,8 @@ namespace Vector3 //三维向量
     }
 
 }
+
 //多维向量库
-//由 pzy 编写
 
 // High-dimensional vector
 namespace VectorHd // 高维向量
